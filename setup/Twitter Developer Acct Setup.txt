@@ -1,0 +1,23 @@
+
+Jesus Olivera
+Independet Study
+last updated: 2/19/22
+
+Getting Started with Twitter API: https://www.youtube.com/watch?v=bNDRiaFyLrs
+
+"hate labe" Project: https://developer.twitter.com/en/portal/projects/1495044415550902279/apps/23438602/settings
+
+1. Visit dev.twitter.com
+2. Create an account on the developer site by clicking the ‘Sign In’ button at the top-right corner 
+3. Sing in using YU email xxxxxx@mail.yu.edu
+4. Create an account on the developer site by clicking the ‘Sign In’ button at the top-right corner
+5. Complete registration
+5.1 Apply for "Elevated Access" and/or "Academic Research"-- wait until request has been approved.
+6. Enter App name: hate label
+7. Retrieve Keys:
+
+API Key: 7Q6AcYjJSJ0rFCofWE9X5km0g
+API Secret: 1LiC3fdtRACZckDoAzTmNGmZXfwtxXapfnwiEcXPML27SbJJ2d
+Bearer Token: AAAAAAAAAAAAAAAAAAAAAAqlZQEAAAAAd%2BobMMpQnEGdR%2B1eCEduLojYwk0%3Dr3shBH1VfpDVpsFHyQTD5jVwotmyCBkwk15fD6AxE47HdsG8Jd
+Access Token: 1495039738323124226-dgQZUL9iCP1ksx0tptql4ZwymHgCdG
+Access Token Secret: ocjHQL0VuWwAMjrSL6kbvx470l2ru011bxb8ete8w8Osi
