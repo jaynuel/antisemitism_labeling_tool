@@ -1,0 +1,12 @@
+Jesus Olivera
+Independent Study: Labelling Tool
+
+Getting Started with Label Studio after lunching application
+
+1. Create user name and password
+
+2. Create a project: 
+
+Project Name: YU Labeling Tool
+
+3. Click "save"
