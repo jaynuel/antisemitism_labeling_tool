@@ -1,0 +1,26 @@
+Jesus Olivera
+Independent Study: Data Labelling Tool
+
+Label Studio install with conda
+https://www.youtube.com/watch?v=e1yJZUp0590&t=99s
+
+1. Setup Conda's env:
+
+conda create -n label-studio python=3.7
+
+2. Activate conda enviroment:
+
+conda activate label-studio
+
+3. Install label studio (pip):
+
+pip install -U label-studio
+
+4. Launch it (local enviroment):
+
+label-studio
+
+
+
+
+
