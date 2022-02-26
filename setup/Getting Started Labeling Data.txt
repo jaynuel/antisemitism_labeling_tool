@@ -1,0 +1,12 @@
+Jesus Olivera
+Independent Study
+Getting Started with Labeling Data
+https://www.youtube.com/watch?v=6e1OLH5Iw2U
+
+1. Launch Label Studio:
+
+- Open Anaconda Prompt
+- run: conda activate label-studio 
+- run: label-studio
+
+2. Click on the project "YU Labeling Tool" -> navigate to "Settings" -> Navigate to "Labeling Interface" -> Navigate to "Templates"
