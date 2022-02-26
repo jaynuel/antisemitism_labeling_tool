@@ -1,0 +1,72 @@
+Jesus Olivera
+Independent Study
+
+Configuring Cloud Storage S3
+https://www.youtube.com/watch?v=6e1OLH5Iw2U
+Pre-reqs
+- Have an AWS acct
+- Have S3 bucket
+
+1. Navigate to "Settings" -> right top corner
+
+2. Navigate to "Cloud Storage" on the left plane:
+- Source Cloud Storage (data import)
+- Target Cloud Storage (data export)
+
+3. Click "Source Cloud Storage" -> select S3
+
+4. Retrieve API tokens to access S3 on AWS:
+- On AWS Cloud -> navigate to IAM -> navigate to user groups
+- Create an user group: s3-sync-group
+- Add permissions: "AmazonS3FullAccess"
+- Navigate to users -> create user: ls-s3-sync
+- Select: "Access Key -Programmmmatic Access -> click "Next:Permissions"
+- Add user to group "s3-sync-group" -> click "Next: Tags" -> click "Next: Review" -> click "Create User"
+- Retrieve Access key id and secrect access key:
+Access Key ID: AKIA44IVHR33AYIJWJDH
+Secret Access Key: 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
+
+5. On label studio interface: 
+- Copy access key and secret key on the "Add Source Storage"
+- Copy bucket name on "Bucket Name"
+- To use every data file as input, select "Treat every bucket object as source file"
+- Uncheck "Use pre-signed URLs"
+- Enter "Storage Name": S3 Tweets
+- Enter "Region Name" : us-east-1
+- Click "Check Connection": If "Successfully connected!" proceed abd click "Add Storage", otherwise debug
+
+Considerations:
+
+- Before "Sync Storage" -> navigate to bucket permissions
+- At the very bottom you will find: "Cross-origin resource sharing (CORS)" -> enter the following JSON script and click "save":
+
+[
+    {
+        "AllowedHeaders": [
+            "*"
+        ],
+        "AllowedMethods": [
+            "GET",
+            "PUT",
+            "POST",
+            "HEAD",
+            "DELETE"
+        ],
+        "AllowedOrigins": [
+            "http://localhost:8080"
+        ],
+        "ExposeHeaders": [
+            "x-amz-server-side-encryption",
+            "x-amz-request-id",
+            "x-amz-id-2"
+        ],
+        "MaxAgeSeconds": 3000
+    }
+]
+
+6. On label studio: click -> "Sync Storage" -> Synced should retrieve the number of task(s) depending on the files on the S3 bucket
+7. Go back to the project -> navigate to "Settings" -> navigate to "Labeling Interface"
+
+
+
+
