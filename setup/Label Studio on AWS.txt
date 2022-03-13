@@ -1,0 +1,38 @@
+Jesus Olivera
+Independent Study 
+YU Labeling Tool
+
+Deploying Label Studio on AWS: Elastic Beanstalk
+
+https://medium.com/@KerleIndia/how-to-host-label-studio-on-aws-elastic-beanstalk-41abcbcced4
+
+https://github.com/heartexlabs/label-studio
+
+1. Login to AWS act
+2. Search "Elastic Beanstalk
+3. Click -> create new enviroment
+4. For env tier select: "Web Server Enviroment"
+5. Create an application name
+6. For platform -> select "Managed Platform" 
+7. Platform select "Docker"
+8. Platform branch: "Docker running on 64bit Amazon Linux 2"
+9. For platform version: "3.4.4(Recommended)
+10. For application code -> select "Upload your code"
+11. Create a Dockerrun.aws.json file that contains the following code:
+
+{
+  "AWSEBDockerrunVersion": "1",
+  "Image": {
+    "Name": "heartexlabs/label-studio",
+    "Update": "true"
+  },
+  "Ports": [
+  {
+  "ContainerPort": "8080"
+  }
+  ]
+}
+
+*Docker image from public repository
+
+12. Click: "Create enviroment"

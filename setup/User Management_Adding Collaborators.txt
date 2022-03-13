@@ -1,0 +1,13 @@
+Jesus Olivera
+Independent Study: Labeling Tool 
+
+User management: Invite collaborators 
+
+Steps:
+
+1. Launch Lable studio (any method - for this V1 "conda promt" was leveraged)
+2. Click on the project you have created: YU Labeling Tool
+3. Click on the hamberger menu on the top left corner and click on "Organizations"
+4. Click on "+Add People" and copy the link
+5. Share the link with any Label Studio user and they will be able to access the project.
+
