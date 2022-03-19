@@ -1,0 +1,21 @@
+Jesus Olivera
+Independent Study
+Pipeline setup: Annotation outputs to S3
+
+Intructions: AWS S3 
+
+1. Create an S3 bucket: annotationoutput
+2. Copy settings from existing bucket: tweetdataset
+3. Allow Public access on the bucket -> create bucket
+
+
+ Instructions: Label Studio
+ 
+ 1. Launch Label Studio -> select project -> click settings
+ 2. Click on "Cloud Storage" -> "Add Target Storage"
+ 3. Select on Storage Type: "AWS S3"
+ 4. Storage Tittle: "Annotation Outputs"
+ 5. Bucket Name: annotationoutput
+6. Access Key ID, Secret Access Key and Session Token are pre-populated
+7. If Access Key ID, Secret Access Key and Session Token are not pre-populated retrieve the keys and secrets following intrusctions on "Pipeline 2 S3 to Label Studio"
+8. Click "Check Connection" -> if "Successfully connected! -> click "Add Storage" 
