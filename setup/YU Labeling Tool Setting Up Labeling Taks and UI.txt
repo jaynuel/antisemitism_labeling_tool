@@ -1,0 +1,22 @@
+Jesus Olivera 
+Independent Study: YU Data Labeling Tool 
+Setting up Labeling Interface and annotation tasks
+
+Instructions: Setting up Image Labeling Interface
+
+1. Launch Label Studio
+2. Select the project -> select "Settings" -> Select "Labeling Interface"
+* User Interface templates can be browse or templates can be built from scratch.
+  For the purpose of this MVP an existing template will be selected.
+
+3. Click on "Browse Template" -> select "Image Classification"
+
+Intructions: Setting up annotaion tasks
+
+1. On "Configured data" -> Use text from "<imported file>"
+2. Add choices (labels) -> Enter the labels you want your users to chose from when evaluating each text option
+3. For the purpose of this MVP Generic labels will be used. Next steps must include determining labels strategy 
+4. Enter each choice and add thhem to the options by clicking add
+* The labels chosen for this MVP are: (1) Antisemitic, (2) Racist, (3) Insensitive, (4) Neutral
+
+5. Once all the labels have been added click "Save"
