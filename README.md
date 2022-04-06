@@ -17,6 +17,6 @@ This project contains all files comprising the dev of "Antisemitism Labeling Too
 
 ![image](https://user-images.githubusercontent.com/71087767/161399113-956c9b04-8bb1-4904-9e60-c372400b47c9.png)
 
-![image](https://user-images.githubusercontent.com/71087767/161399127-98997fd3-2068-4e5b-81c6-26932b44d9d7.png)
+
 
 
