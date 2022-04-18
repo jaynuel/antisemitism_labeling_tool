@@ -15,6 +15,7 @@ This project contains all files comprising the dev of "Antisemitism Labeling Too
 
 ![image](https://user-images.githubusercontent.com/71087767/161399101-43ed9a09-cc61-4bf8-80c2-c7ffc4f40539.png)
 
+![Process Logic](https://user-images.githubusercontent.com/71087767/163885622-bf91344f-1267-437d-b920-90f6869ba6a1.JPG)
 
 
 
