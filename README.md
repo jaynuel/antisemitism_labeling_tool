@@ -1,5 +1,4 @@
-# antisemitism_labeling_tool
-This project contains all files comprising the dev of "Antisemitism Labeling Tool"  MVP V1
+# antisemitism_labeling_tool_MVP
 
 ![image](https://user-images.githubusercontent.com/71087767/161399049-0c8f9d14-f56d-4028-bb5b-ff0c78a094c8.png)
 
