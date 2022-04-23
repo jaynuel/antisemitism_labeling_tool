@@ -17,6 +17,6 @@ Intructions: Setting up annotaion tasks
 2. Add choices (labels) -> Enter the labels you want your users to chose from when evaluating each text option
 3. For the purpose of this MVP Generic labels will be used. Next steps must include determining labels strategy 
 4. Enter each choice and add thhem to the options by clicking add
-* The labels chosen for this MVP are: (1) Antisemitic, (2) Racist, (3) Insensitive, (4) Neutral
+* The labels chosen for this MVP are: (0) NEGATIVE, (1) POSITIVE, AND (-1) NEUTRAL
 
 5. Once all the labels have been added click "Save"
