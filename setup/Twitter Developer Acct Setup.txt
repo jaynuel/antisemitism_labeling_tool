@@ -16,8 +16,8 @@ Getting Started with Twitter API: https://www.youtube.com/watch?v=bNDRiaFyLrs
 6. Enter App name: hate label
 7. Retrieve Keys:
 
-API Key: 7Q6AcYjJSJ0rFCofWE9X5km0g
-API Secret: 1LiC3fdtRACZckDoAzTmNGmZXfwtxXapfnwiEcXPML27SbJJ2d
-Bearer Token: AAAAAAAAAAAAAAAAAAAAAAqlZQEAAAAAd%2BobMMpQnEGdR%2B1eCEduLojYwk0%3Dr3shBH1VfpDVpsFHyQTD5jVwotmyCBkwk15fD6AxE47HdsG8Jd
-Access Token: 1495039738323124226-dgQZUL9iCP1ksx0tptql4ZwymHgCdG
-Access Token Secret: ocjHQL0VuWwAMjrSL6kbvx470l2ru011bxb8ete8w8Osi
+API Key: <API KEY>
+API Secret: <API SECRET>
+Bearer Token: <BEARER TOKEN>
+Access Token: <ACCESS TOKEN>
+Access Token Secret: <ACCESS TOKEN SECRET>
